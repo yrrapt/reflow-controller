@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tom/repositories/reflow-controller/hardware/reflow-controller/reflow-controller.sch</source>
+    <date>Fri 01 May 2020 23:59:07 CEST</date>
+    <tool>Eeschema 5.1.5+dfsg1-2~bpo10+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>reflow-controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Low Voltage/" tstamps="/5EB63FEF/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>low_voltage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/High Voltage/" tstamps="/5EF3C70A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>high-voltage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>STM32F103CBTx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8304</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F1" part="STM32F103CBTx" description="ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A60B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A611</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A619</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A620</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A627</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A62D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A684</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6AD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6C1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6CE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6DB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6E8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A6F5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A71F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A72D</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C115962</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A743</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C1648</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A749</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C1648</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7A757</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>2.54mm Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB7DCC2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>NF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EBA55BB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x07_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EBBDD44</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HT7533-1-SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14289</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="HT75xx-1-SOT89" description="100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC25287</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>NF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC54C6E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC7D772</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC8C60C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC9781A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC9782F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5ED09A99</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C52028</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5ED21832</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5ED2A630</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>5.08mm Screw Terminal</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5ED760C0</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>ADC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EDBFFBC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EE5F014</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WHITE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C2290</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB675FA</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB67600</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C23140</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB67606</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EB81CA0</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EBDA9FA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C22775</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EBDAA04</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C72038</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC23638</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC23642</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C22828</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC2364C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BLUE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C72041</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368AF</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368B9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C22775</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368C3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368E7</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368F1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>68R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C27592</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EC368FB</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>BOOT_SEL</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Low Voltage/" tstamps="/5EB63FEF/"/>
+      <tstamp>5EDAB5CE</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>JST137K-800E</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C179477</field>
+      </fields>
+      <libsource lib="Device" part="Q_TRIAC_A1A2G" description="Triode for alternating current, anode1/anode2/gate"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF3CE52</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>5.08mm Screw Terminal</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF42440</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MOC3051M</value>
+      <footprint>Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C184543</field>
+      </fields>
+      <libsource lib="Relay_SolidState" part="MOC3051M" description="Random Phase Opto-Triac, Vdrm 600V, Ift 15mA, DIP6"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF44A99</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF45A9B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF45E75</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17924</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF4A795</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF4D2D2</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF4E737</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF4F5D0</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF65292</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF655ED</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF66531</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF6653B</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EF66545</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17924</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAB4D62</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WHITE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C2290</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAB7A0E</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAB822F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C23140</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAC01B3</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>JST137K-800E</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C179477</field>
+      </fields>
+      <libsource lib="Device" part="Q_TRIAC_A1A2G" description="Triode for alternating current, anode1/anode2/gate"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1B9D</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>5.08mm Screw Terminal</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BA7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MOC3051M</value>
+      <footprint>Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C184543</field>
+      </fields>
+      <libsource lib="Relay_SolidState" part="MOC3051M" description="Random Phase Opto-Triac, Vdrm 600V, Ift 15mA, DIP6"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BB3</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BBD</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BC7</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17924</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BD1</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BDB</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1BF9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C03</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C28</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C32</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C3C</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C46</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17901</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C50</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17924</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C70</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WHITE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C2290</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C7B</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C85</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C23140</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Voltage/" tstamps="/5EF3C70A/"/>
+      <tstamp>5EAF1C8F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_TRIAC_A1A2G">
+      <description>Triode for alternating current, anode1/anode2/gate</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Q_TRIAC_A1A2G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F1" part="STM32F103C8Tx">
+      <aliases>
+        <alias>STM32F103CBTx</alias>
+      </aliases>
+      <description>ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F103C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="HT75xx-1-SOT89">
+      <description>100mA Low Dropout Voltage Regulator, Fixed Output, SOT89</description>
+      <docs>https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT75xx-1-SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3010M">
+      <aliases>
+        <alias>MOC3011M</alias>
+        <alias>MOC3012M</alias>
+        <alias>MOC3020M</alias>
+        <alias>MOC3021M</alias>
+        <alias>MOC3022M</alias>
+        <alias>MOC3023M</alias>
+        <alias>MOC3051M</alias>
+        <alias>MOC3052M</alias>
+      </aliases>
+      <description>Random Phase Opto-Triac, Vdrm 250V, Ift 15mA, DIP6</description>
+      <docs>http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3010M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="MAX31855KASA">
+      <aliases>
+        <alias>MAX31855JASA</alias>
+        <alias>MAX31855NASA</alias>
+        <alias>MAX31855SASA</alias>
+        <alias>MAX31855TASA</alias>
+        <alias>MAX31855EASA</alias>
+        <alias>MAX31855RASA</alias>
+      </aliases>
+      <description>Cold Junction K-type Termocouple Interface, SPI, SO8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855KASA</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="passive"/>
+        <pin num="3" name="T+" type="passive"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="~CS~" type="input"/>
+        <pin num="7" name="SO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>MMBF170</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F1">
+      <uri>/usr/share/kicad/library/MCU_ST_STM32F1.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>/usr/share/kicad/library/Relay_SolidState.lib</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>/usr/share/kicad/library/Sensor_Temperature.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/High Voltage/ELEMENT1">
+      <node ref="R18" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="2" name="/High Voltage/ELEMENT2">
+      <node ref="Q6" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="R7" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="36"/>
+      <node ref="U1" pin="48"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="4" name="/Low Voltage/TC_CSn">
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="5" name="/Low Voltage/TC_MISO">
+      <node ref="U3" pin="7"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="6" name="/Low Voltage/TC_SCLK">
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J6" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="47"/>
+      <node ref="J6" pin="4"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J5" pin="9"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="13"/>
+      <node ref="J5" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J5" pin="11"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J3" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J10" pin="5"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="10" name="Net-(J7-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="/Low Voltage/ADC2">
+      <node ref="U1" pin="10"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="15" name="/Low Voltage/ADC1">
+      <node ref="U1" pin="12"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="16" name="/Low Voltage/ADC0">
+      <node ref="J4" pin="4"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="17" name="/Low Voltage/ADC3">
+      <node ref="U1" pin="13"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="18" name="+5V">
+      <node ref="J6" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J5-Pad14)">
+      <node ref="J5" pin="14"/>
+    </net>
+    <net code="20" name="/Low Voltage/JTAG_VREF">
+      <node ref="R14" pin="2"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J5-Pad12)">
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="22" name="/Low Voltage/JTAG_TMS">
+      <node ref="J5" pin="4"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="23" name="/Low Voltage/JTAG_TDI">
+      <node ref="U1" pin="38"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="24" name="/Low Voltage/JTAG_TDO">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="25" name="/Low Voltage/JTAG_TCK">
+      <node ref="U1" pin="37"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="26" name="Net-(Q3-Pad3)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="28" name="/Low Voltage/LED3">
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="29" name="/Low Voltage/LED0">
+      <node ref="Q4" pin="1"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="30" name="Net-(Q4-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q2-Pad3)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="34" name="/Low Voltage/LED1">
+      <node ref="U1" pin="42"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="37" name="/Low Voltage/BOOT0">
+      <node ref="U1" pin="44"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="38" name="/Low Voltage/BOOT1">
+      <node ref="U1" pin="20"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="39" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="40" name="/Low Voltage/LED2">
+      <node ref="U1" pin="43"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad3)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="42" name="/Low Voltage/SCL">
+      <node ref="U1" pin="21"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="43" name="/Low Voltage/SDA">
+      <node ref="U1" pin="22"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="45" name="/Low Voltage/IO0">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="46" name="/Low Voltage/IO1">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="47" name="/Low Voltage/IO2">
+      <node ref="U1" pin="27"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="48" name="/Low Voltage/IO3">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="49" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="50" name="/Low Voltage/USB-">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="51" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="52" name="/Low Voltage/USB+">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="53" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="55" name="/Low Voltage/FT232_RXD">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="56" name="/Low Voltage/FT232_RIn">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="57" name="/Low Voltage/FT232_RTSn">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="58" name="/Low Voltage/FT232_TXD">
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="59" name="/Low Voltage/FT232_CTSn">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="60" name="/Low Voltage/JTAG_NRST">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad6)">
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="62" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="65" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D9-Pad3)">
+      <node ref="D9" pin="3"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="68" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R32-Pad2)">
+      <node ref="R33" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D9-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="71" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="72" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="73" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R25-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="76" name="Net-(D7-Pad2)">
+      <node ref="R21" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R38-Pad2)">
+      <node ref="R39" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R37-Pad2)">
+      <node ref="R38" pin="1"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="79" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="80" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="81" name="Net-(R22-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="82" name="Net-(R24-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D8-Pad3)">
+      <node ref="D8" pin="3"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="84" name="Net-(C14-Pad2)">
+      <node ref="D8" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="85" name="Net-(R28-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="86" name="Net-(R29-Pad2)">
+      <node ref="R30" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="87" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="89" name="Net-(R24-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D6-Pad1)">
+      <node ref="Q5" pin="3"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="91" name="Net-(D6-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C14-Pad1)">
+      <node ref="R36" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+  </nets>
+</export>
