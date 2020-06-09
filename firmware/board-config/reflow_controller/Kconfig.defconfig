@@ -1,0 +1,11 @@
+# Reflow oven controller configuration
+
+# Copyright (c) 2016 Open-RnD Sp. z o.o.
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_REFLOW_CONTROLLER
+
+config BOARD
+	default "reflow_controller"
+
+endif # BOARD_REFLOW_CONTROLLER

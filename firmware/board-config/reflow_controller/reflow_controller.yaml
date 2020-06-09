@@ -1,0 +1,19 @@
+identifier: reflow_controller
+name: Reflow Controller Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 20
+flash: 128
+supported:
+  - arduino_gpio
+  - arduino_spi
+  - gpio
+  - spi
+  - pwm
+  - watchdog
+  - adc
+  - i2c

@@ -1,0 +1,86 @@
+/*
+ * Copyright (c) 2017 Linaro Limited
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+#include <st/f1/stm32f103Xb.dtsi>
+
+/ {
+	model = "Reflow oven controller";
+	compatible = "st,reflow_controller", "st,stm32f103cb";
+
+	chosen {
+		zephyr,console = &usart1;
+		zephyr,shell-uart = &usart1;
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+	};
+
+	leds {
+		compatible = "gpio-leds";
+		led_red: led_red {
+			gpios = <&gpiob 5 GPIO_ACTIVE_HIGH>;
+			label = "User Red LED";
+		};
+		led_yellow: led_yellow {
+			gpios = <&gpiob 6 GPIO_ACTIVE_HIGH>;
+			label = "User Yellow LED";
+		};
+		led_white: led_white {
+			gpios = <&gpiob 7 GPIO_ACTIVE_HIGH>;
+			label = "User White LED";
+		};
+		led_blue: led_blue {
+			gpios = <&gpiob 8 GPIO_ACTIVE_HIGH>;
+			label = "User Blue LED";
+		};
+	};
+	
+	aliases {
+		led0 = &led_red;
+	};
+};
+
+&usart1 {
+	current-speed = <115200>;
+	status = "okay";
+};
+
+&usart2 {
+	current-speed = <115200>;
+	status = "okay";
+};
+
+&usart3 {
+	current-speed = <115200>;
+};
+
+&spi1 {
+	status = "okay";
+};
+
+&spi2 {
+	status = "okay";
+};
+
+&timers1 {
+	status = "okay";
+
+	pwm1: pwm {
+		status = "okay";
+	};
+};
+
+&iwdg {
+	status = "okay";
+};
+
+&adc1 {
+	status = "okay";
+};
+
+&usb {
+	status = "okay";
+};
