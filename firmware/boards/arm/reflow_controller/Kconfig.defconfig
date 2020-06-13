@@ -8,4 +8,8 @@ if BOARD_REFLOW_CONTROLLER
 config BOARD
 	default "reflow_controller"
 
+config SPI_STM32_INTERRUPT
+    default y
+    depends on SPI
+
 endif # BOARD_REFLOW_CONTROLLER

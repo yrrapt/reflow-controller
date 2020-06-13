@@ -8,6 +8,7 @@
 #include <stdio.h>
 
 #include <pinmux/stm32/pinmux_stm32.h>
+#include "thermocouple_driver.h"
 
 
 // LED declares
@@ -20,10 +21,7 @@
 const char LEDS[] =                 {LED_RED, LED_YELLOW, LED_WHITE, LED_BLUE};
 
 
-// thermocouple declares
-#define THERMOCOUPLE_SPI_DEVICE     "SPI_1"
-#define THERMOCOUPLE_SPI_CS_PORT    "GPIOA"
-#define THERMOCOUPLE_SPI_CS_PIN     4
+#define THERMOCOUPLE_LABEL          "THERMOCOUPLE"
 
 
 // heater control declares
@@ -35,13 +33,10 @@ const char HEATER_PIN[] =           {8, 9};
 #define OFF                         0
 
 
-
-
 // Store the device bindings
 struct device *dev_leds[LEDS_NUMBER];
-struct device *dev_spi;
-struct device *dev_spi_cs;
 struct device *dev_heaters[2];
+struct device *dev_thermocouple;
 
 
 // define the SPI configuration
@@ -105,41 +100,6 @@ int init_leds() {
 
 
 /*
- * Initialize the SPI interface
- * --------------------
- *  Prepare the SPI interface peripheral
- */
-int init_spi() {
-
-    // get the device binding
-    dev_spi = device_get_binding(THERMOCOUPLE_SPI_DEVICE);
-    if (!dev_spi) {
-        printk("FAILED: Could not bind to the SPI device\n");
-        return -1;
-    }
-
-    // setup the chip select (CS) as a GPIO pin
-    dev_spi_cs = device_get_binding(THERMOCOUPLE_SPI_CS_PORT);
-    if (dev_spi_cs == NULL) {
-        printk("FAILED: Could not bind to the SPI CS GPIO device\n");
-        return -1;
-    }
-    gpio_pin_configure(dev_spi_cs, THERMOCOUPLE_SPI_CS_PIN, GPIO_OUTPUT_ACTIVE);
-
-    // define the SPI configuration
-    spi_cs.gpio_dev = dev_spi_cs;
-    spi_cs.gpio_pin = 4;
-    spi_cs.delay = 0;
-    spi_cfg.frequency = 500000;
-    spi_cfg.operation = SPI_OP_MODE_MASTER | SPI_MODE_CPOL | SPI_MODE_CPHA | SPI_WORD_SET(8) | SPI_LINES_SINGLE | SPI_TRANSFER_MSB;
-    spi_cfg.slave = 0;
-    spi_cfg.cs = &spi_cs;
-
-    return 0;
-}
-
-
-/*
  * Initialize the heaters
  * --------------------
  *  Prepare the heater control ports that turn on each heater element
@@ -183,75 +143,16 @@ int init() {
     return_code = return_code | init_leds();
     printk("  LEDs initialized\n");
 
-    // setup the SPI interface
-    return_code = return_code | init_spi();
-    printk("  SPI initialized\n");
-
     // setup the heaters
     return_code = return_code | init_heaters();
     printk("  Heaters initialized\n");
-    printk("  Initialization complete!\n");
 
+    // setup the thermocouple interface
+    dev_thermocouple = device_get_binding(THERMOCOUPLE_LABEL);
+
+    printk("  Initialization complete!\n");
     return return_code;  
 
-}
-
-
-/*
- * Read the thermocouple temperature
- * --------------------
- *  Read from the SPI connectred thermocouple interface IC to find the following data:
- *
- *      - Thermocouple temperature
- *      - Ambient temperature of the IC
- *      - Any error codes returned from the interface
- */
-int thermocouple_read(float *thermocouple_temperature, float *ambient_temperature, int *error_scv_scg_oc) {
-
-    // create buffer structures to store the SPI data in
-    static u8_t rx_buffer[4];
-
-    struct spi_buf rx_buf = {
-        .buf = rx_buffer,
-        .len = sizeof(rx_buffer),
-    };
-    const struct spi_buf_set rx = {
-        .buffers = &rx_buf,
-        .count = 1
-    };
-
-    // read from the SPI device
-    int spi_error = spi_read(dev_spi, &spi_cfg, &rx);
-
-    if (spi_error) {
-        printk("FAILED: Could not read from thermocouple SPI device\n");
-        return spi_error;
-    }
-
-    // grab the bits
-    int thermocouple_temperature_fixed_point = ((rx_buffer[0] * 0x100) + (rx_buffer[1] & 0xFC)) >> 2;
-    int ambient_temperature_fixed_point = ((rx_buffer[2] * 0x100) + (rx_buffer[3] & 0xF0)) >> 4;
-
-    // convert to signed
-    if (thermocouple_temperature_fixed_point & 0xC000) {
-        thermocouple_temperature_fixed_point |= ~0xFFFF;
-    }
-    if (ambient_temperature_fixed_point & 0xF000) {
-        ambient_temperature_fixed_point |= ~0xFFFF;
-    }
-
-    // convert to float
-    *thermocouple_temperature = thermocouple_temperature_fixed_point;
-    *thermocouple_temperature = *thermocouple_temperature / 4.0;
-    *ambient_temperature = ambient_temperature_fixed_point;
-    *ambient_temperature = *ambient_temperature / 16.0;
-    
-    // collect the errors
-    error_scv_scg_oc[0] = (rx_buffer[3] & 0x04) >> 2;
-    error_scv_scg_oc[1] = (rx_buffer[3] & 0x02) >> 1;
-    error_scv_scg_oc[2] = rx_buffer[3] & 0x01;
-
-    return rx_buffer[1] & 0x01;
 }
 
 
@@ -297,9 +198,8 @@ void main(void)
             }
         }
 
-
         // read the thermocouple values
-        thermocouple_read(&thermocouple_temperature, &ambient_temperature, thermocouple_error);
+        thermocouple_read(dev_thermocouple, &thermocouple_temperature, &ambient_temperature, thermocouple_error);
 
         // print the thermocouple values
         printf("Thermocouple Temperature = %0.2f\n", thermocouple_temperature);

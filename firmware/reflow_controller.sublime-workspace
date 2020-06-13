@@ -1,0 +1,1043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"initi",
+				"Initialize"
+			],
+			[
+				"HEAT",
+				"HEATER_TOP"
+			],
+			[
+				"HEATER",
+				"HEATER_TOP_PIN"
+			],
+			[
+				"THER",
+				"THERMOCOUPLE_SPI_CS_PORT"
+			],
+			[
+				"init",
+				"init_console"
+			],
+			[
+				"tc",
+				"tc_temperature_fp"
+			],
+			[
+				"tc_",
+				"tc_temperature_fp"
+			],
+			[
+				"dev_sp",
+				"dev_spi_cs"
+			],
+			[
+				"min",
+				"minimum"
+			],
+			[
+				"spe",
+				"specification_file"
+			],
+			[
+				"gain",
+				"gain_device"
+			],
+			[
+				"gai",
+				"gain_device"
+			],
+			[
+				"cu",
+				"current_source_vdssat"
+			],
+			[
+				"curre",
+				"current_source_vdssat"
+			],
+			[
+				"cur",
+				"current_source"
+			],
+			[
+				"sp",
+				"supply_voltage"
+			],
+			[
+				"op",
+				"op_in"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"start",
+				"start_bag"
+			],
+			[
+				"des",
+				"design_fun"
+			],
+			[
+				"BAG_",
+				"BAG_framework"
+			],
+			[
+				"lib_de",
+				"lib_defs_file"
+			],
+			[
+				"spec",
+				"spec_file"
+			],
+			[
+				"ce",
+				"cell_name"
+			],
+			[
+				"BAG_T",
+				"BAG2_TEMPLATES_EC"
+			],
+			[
+				"tool",
+				"tool_run"
+			],
+			[
+				"re",
+				"repositories"
+			],
+			[
+				"Gen",
+				"Genius-TCAD-Open"
+			],
+			[
+				"coro",
+				"coro_list"
+			],
+			[
+				"lay",
+				"layout_module"
+			],
+			[
+				"s",
+				"subsitution"
+			],
+			[
+				"sub",
+				"subsitutions"
+			],
+			[
+				"voltse",
+				"voltseconds_sim"
+			],
+			[
+				"are",
+				"area_opt"
+			],
+			[
+				"r",
+				"rising_edge"
+			],
+			[
+				"gnd",
+				"gnd"
+			],
+			[
+				"t",
+				"target_accuracy"
+			],
+			[
+				"qunat",
+				"quantised_value"
+			],
+			[
+				"edtS",
+				"edtSimParam"
+			],
+			[
+				"lblSim",
+				"lblSimParam"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.c",
+			"settings":
+			{
+				"buffer_size": 8618,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/zephyr/include/console/console.h",
+			"settings":
+			{
+				"buffer_size": 3858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/pinmux.c",
+			"settings":
+			{
+				"buffer_size": 2732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller.dts",
+			"settings":
+			{
+				"buffer_size": 1199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prj.conf",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sample.yaml",
+			"settings":
+			{
+				"buffer_size": 278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/Kconfig.defconfig",
+			"settings":
+			{
+				"buffer_size": 223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller_defconfig",
+			"settings":
+			{
+				"buffer_size": 748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller.yaml",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Python3.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/pinmux.c",
+		"/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/tia/common_source/algorithm.py",
+		"/home/tom/repositories/reflow-controller/firmware/reflow_controller/sample.yaml",
+		"/home/tom/repositories/reflow-controller/firmware/reflow_controller/src/main.c",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/thermocouple/max31855.c",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/include/thermocouple.h",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/repositories/BAG_framework/bag/design/module.py",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/bag_config.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/characterise_query.py",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/repositories/BAG_framework/bag/simulation/core.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-library_/characterise/char_nmos4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/design_specs/tia_1.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/tia/common_source/limits.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/scripts_char/mos_query.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/scripts_char/amplifiers.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/scripts_char/opamp_plot.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/tech_config.yaml",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/max31855/Kconfig.max31855",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/max31855/Kconfig",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/max31855/max31855.c",
+		"/home/tom/repositories/reflow-controller/firmware/drivers/max31855/CMakeLists.txt",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/characterise_mos.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_nmos4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_pmos4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/repositories/bag_testbenches/BagModules/bag_testbenches/mos_analogbase.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/specs_char_sample/nch_w4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/scripts_char/mos_char.py",
+		"/home/tom/zephyr/samples/basic/blinky/sample.yaml",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/results/characterize/nmos4/nmos4_intent_standard/nmos4_intent_standard_MEAS_mos_ss/mos_ss.yaml",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/results/characterize/nmos4/nmos4_intent_standard/nmos4_intent_standard_MEAS_mos_ss/noise.yaml",
+		"/home/tom/repositories/reflow-controller/software/board-config/reflow_controller/reflow_controller.yaml",
+		"/home/tom/repositories/reflow-controller/software/zephyr_project/zephyr/boards/arm/reflow-controller/reflow-controller.yaml",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/nmos4_standard.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/bag_config.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/specs_char_sample/nch_w4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/start_bag.il",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/interface/skill.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/core.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/simulation/core.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/design/module.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/nmos4_standard.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/BagModules/bag_testbenches/mos_analogbase.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir_oldd/bag_testbenches/specs_char_sample/nch_w4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/bag_config.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/scripts_char/mos_query.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/scripts_char/amplifiers.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/setup.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/README.md",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/setup/install_environment.sh",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/Installation.md",
+		"/home/tom/repositories/BAG/my_repositories/test_installation/start_tool.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/setup_environment.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_testbenches/scripts_char/installation.md",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_nmos.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_pmos.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_nmos4.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_ne3.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/bag_config.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/netlist_info/nmos4_standard.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/pmos4_standard.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/nmos4_standard.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/__init__.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/cap_ideal.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/DesignModules/BAG_prim/netlist_info/pmos4_standard.yaml",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/pmos4_standard.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/util/cache.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/initialize_process.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/start_bag.sh",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/virtuoso.sh",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/install_process.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/setup_bag.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/start_tool.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/setup_tool.sh",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/templates_xh018/tech.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/templates_xh018/mos/base.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/templates_xh018/data/tech_params.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-library/characterise/char_ne3.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/cap_ideal.yaml",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/res_standard.yaml",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/res_metal.yaml",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/DesignModules/BAG_prim/netlist_info/res_ideal.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/templates_cds_ff_mpt/tech.py",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/bag_startup.py",
+		"/home/tom/repositories/BAG/my_repositories/processes/xh018/templates_xh018/mos/__init__.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/tech_config.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment-cds_ff_mpt/work_dir/cds_ff_mpt/workspace_setup/bag_submodules.yaml",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/BAG_framework/bag/core.py",
+		"/home/tom/repositories/development-environment/Dockerfile",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/setup/setup_environment.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/process/cds_ff_mpt/initialize_process.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/tools/virtuoso/start_tool.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/initialize_environment.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/interface/simulator.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/concurrent/core.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/verification/base.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-designs/library/tia/tia_5t/algorithm.py",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/tutorial.sh",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/start_tutorial.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/scripts_char/mos_char.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-testbenches/verification/mos/query.py",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/bag_testbenches/specs_char_sample/pch_w4.yaml",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/.bashrc",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/verification/virtuoso.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/verification/pvs.py",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/bag_testbenches/scripts_char/mos_char.py",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/bag_testbenches/specs_char_sample/nch_w4.yaml",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/tool_run/cds.lib",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/tool_run/cds.lib.core",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/tool_run/cds.lib.bag",
+		"/home/tom/repositories/BAG/my_repositories/bag-environment/config/process/selected/tool_run/cds.lib.core",
+		"/home/tom/repositories/BAG/original_repositories/BAG2_cds_ff_mpt/setup_submodules.py",
+		"/home/tom/repositories/BAG/my_repositories/bag-designs/work_dir/repositories/BAG_framework/setup.py",
+		"/usr/share/kicad/library/Regulator_Linear.dcm",
+		"/usr/share/kicad/library/Regulator_Linear.lib",
+		"/home/tom/repositories/payload-dmt/doc/reliability/Reliability-Recomendations.md",
+		"/home/tom/repositories/payload-dmt/system-model/docker/install.sh",
+		"/home/tom/repositories/payload-dmt/system-model/gnuradio.sh",
+		"/home/tom/repositories/BAG/my_repositories/bag-designs/setup/setup_environment.sh",
+		"/home/tom/repositories/Genius-TCAD-Docker/Dockerfile",
+		"/home/tom/repositories/Genius-TCAD-Open/Dockerfile",
+		"/home/tom/repositories/Genius-TCAD-Open/docker/Dockerfile",
+		"/home/tom/repositories/Genius-TCAD-Open/docker/DockerUsage.md",
+		"/home/tom/repositories/Genius-TCAD-Docker/build.sh",
+		"/home/tom/repositories/Genius-TCAD-Docker/bash.sh",
+		"/home/tom/repositories/development-environment/jupyter.sh",
+		"/home/tom/repositories/payload-dmt/doc/reliability/Risk-Analysis.md",
+		"/home/tom/repositories/payload-dmt/doc/reliability/Reliability-Overview.md"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir",
+			"/home/tom/repositories/BAG/my_repositories/bag-library",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir",
+			"/home/tom/repositories/BAG/my_repositories/processes/xh018",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment/work_dir/BAG_framework/bag/util",
+			"/home/tom/repositories/BAG/my_repositories/bag-environment",
+			"/tools/cogenda/current/genius/examples",
+			"/home/tom/repositories/BAG2_cds_ff_mpt/bag_testbenches",
+			"/home/tom/repositories/xictools",
+			"/home/tom/repositories/BAG2_cds_ff_mpt",
+			"/home/tom/repositories/BAG_nomod/python/venv/lib64/python3.7/site-packages/bag",
+			"/home/tom/repositories/BAG2_cds_ff_mpt",
+			"/home/tom/repositories/BAG2_cds_ff_mpt/BAG_framework",
+			"/home/tom/repositories/BAG2_cds_ff_mpt",
+			"/home/tom/repositories/BAG_nomod/python/venv/lib64/python3.7/site-packages/bag",
+			"/home/tom/repositories/xictools",
+			"/home/tom/repositories/xictools/xic",
+			"/home/tom/repositories/xictools",
+			"/home/tom/repositories/xictools/xic",
+			"/home/tom/repositories/xictools",
+			"/home/tom/repositories/PYNQ/boards/ip",
+			"/home/tom/repositories/PYNQ",
+			"/opt/crosstool-ng",
+			"/home/tom/repositories/PYNQ/sdbuild/build/PYNQ/boards/ip/hls",
+			"/home/tom/repositories/bag-xic",
+			"/home/tom/repositories/oide/toped",
+			"/home/tom/software/qucs_s/qucs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HEATER_PORT",
+			"LED_STRIP",
+			"get_stability_margins",
+			"create_dut_schematics",
+			"create_designs",
+			"characterize_designs",
+			"create_dut_schematics",
+			"create_designs",
+			"xh018",
+			"tt",
+			"configure_testbench",
+			"default_corner",
+			"instantiate_testbench",
+			"tt",
+			"cds_ff_mpt",
+			"TECH_XH018_HD",
+			"cds_ff_mpt",
+			"cds",
+			"xh018",
+			"via",
+			"ModuleDB(",
+			"ModuleDB",
+			"MasterDB",
+			"self._importer",
+			"make_tdb",
+			"create_designs",
+			"create_layout",
+			"create_designs",
+			"MasterDB",
+			"_importer",
+			"create_designs",
+			"characterize_designs",
+			"via",
+			"xh018",
+			"via",
+			"xh018",
+			"CDSFFMPT",
+			"specs",
+			"MOSDBDiscrete",
+			"get_db",
+			"view_name",
+			"BagProject",
+			"generate_cell",
+			"lvs",
+			"create_designs",
+			"characterize_designs",
+			"lvs",
+			"BagProject",
+			"create_designs",
+			"characterize_designs",
+			"ModuleDB",
+			"MasterDB",
+			"_importer",
+			"DesignMan",
+			"MasterDB",
+			"_importer",
+			"tech_config.yaml",
+			"light",
+			"sha",
+			"run_lvs",
+			"lvs",
+			"pvs",
+			"DesignManager",
+			"wb_shell",
+			"x11",
+			"MainWdesc",
+			"initialize",
+			"RegisterMainWbag",
+			"RegisterMainFrame",
+			"wb_shell",
+			"Shell(",
+			"Shell",
+			"RegisterBigWindow",
+			"main_bag",
+			"gen_layout",
+			"generate_tb",
+			"Initialize",
+			"run_lvs",
+			"async_run_simulation",
+			"run_simulation",
+			"simulate",
+			"running simulation",
+			"ASSURA_615",
+			"create_or_erase_library",
+			"set_gc",
+			"Gbag",
+			"gcvalues",
+			"initialize",
+			"RegisterBigWindow",
+			"gd_window",
+			"gd_window =",
+			"gd_window",
+			"gd_window =",
+			"gd_window",
+			"gtk_vbox_size_allocate",
+			"wb_shell",
+			"gd_window",
+			"window",
+			"wib_window_bak",
+			"main_bag",
+			"\"expose-event\"",
+			"main_bag::initialize",
+			"cParam::cParam",
+			"instantiateTopButtonMenu",
+			"InitTopButtonMenu",
+			"GetMiscMenu",
+			"MenuFSEL",
+			"M_SelectFile",
+			"fileMenuFsel",
+			"editMenuCedit",
+			"connect",
+			"InitMainMenu",
+			"mainMenu",
+			"targets",
+			"gtkMenu",
+			"gcc",
+			"-o gtkm",
+			"gtkmain",
+			"-o ",
+			"CFLAGS",
+			"LSHFLAG",
+			"LINKCC",
+			"CXX",
+			"LINKCC",
+			"-o",
+			"gtkmain.cc",
+			"gtkmain",
+			"-o "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"MAX31855",
+			"TECH_XH018",
+			"XH018",
+			"surface",
+			"\"draw\"",
+			"xc7z020clg400-1",
+			"capacitor_node",
+			"capacitor_q",
+			"gnd",
+			"<=",
+			"range"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7693,
+								7693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3738.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/tom/zephyr/include/console/console.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1180,
+								1180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/pinmux.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1549,
+								1549
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller.dts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "prj.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sample.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/Kconfig.defconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller_defconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/tom/repositories/reflow-controller/firmware/board-config/reflow_controller/reflow_controller.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.083022865591,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 173.0
+	},
+	"output.find_results":
+	{
+		"height": 252.0
+	},
+	"pinned_build_system": "PYTHON_VENV",
+	"project": "reflow_controller.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 128.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

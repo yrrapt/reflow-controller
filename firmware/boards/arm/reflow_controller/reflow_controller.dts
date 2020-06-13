@@ -9,7 +9,7 @@
 
 / {
 	model = "Reflow oven controller";
-	compatible = "st,reflow_controller", "st,stm32f103cb";
+	compatible = "st,stm32f103cb";
 
 	chosen {
 		zephyr,console = &usart1;
@@ -37,9 +37,22 @@
 			label = "User Blue LED";
 		};
 	};
+
+
 	
 	aliases {
 		led0 = &led_red;
+	};
+};
+
+&spi1 {
+	status = "okay";
+
+	thermocouple: thermocouple@0 {
+		compatible = "thermocouple";
+		label = "THERMOCOUPLE";
+
+		reg = <0>; /* ignored, but necessary for SPI bindings */
 	};
 };
 
@@ -50,23 +63,19 @@
 
 &usart2 {
 	current-speed = <115200>;
-	status = "okay";
 };
 
 &usart3 {
 	current-speed = <115200>;
 };
 
-&spi1 {
-	status = "okay";
-};
 
 &spi2 {
-	status = "okay";
+	#status = "okay";
 };
 
 &timers1 {
-	status = "okay";
+	#status = "okay";
 
 	pwm1: pwm {
 		status = "okay";
@@ -74,13 +83,13 @@
 };
 
 &iwdg {
-	status = "okay";
+	#status = "okay";
 };
 
 &adc1 {
-	status = "okay";
+	#status = "okay";
 };
 
 &usb {
-	status = "okay";
+	#status = "okay";
 };
